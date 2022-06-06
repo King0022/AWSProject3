@@ -1,0 +1,165 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "InsuranceDataReader/1.0.0": {
+        "dependencies": {
+          "AWSSDK": "2.3.55.2",
+          "AWSSDK.Core": "3.7.11.12",
+          "AWSSDK.Lambda": "3.7.13.10",
+          "AWSSDK.S3": "3.7.9.12",
+          "AWSSDK.SQS": "3.7.2.65",
+          "Amazon.Lambda.Core": "2.1.0",
+          "Amazon.Lambda.SQSEvents": "2.1.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.3.0"
+        },
+        "runtime": {
+          "InsuranceDataReader.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.1.0": {
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.3.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.SQSEvents/2.1.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AWSSDK/2.3.55.2": {
+        "runtime": {
+          "lib/net45/AWSSDK.dll": {
+            "assemblyVersion": "2.3.55.2",
+            "fileVersion": "2.3.55.2"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.11.12": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.11.12"
+          }
+        }
+      },
+      "AWSSDK.Lambda/3.7.13.10": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.11.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Lambda.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.13.10"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.9.12": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.11.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.9.12"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.2.65": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.11.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.2.65"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InsuranceDataReader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ok06UhfBZw6j6+PhiJR9C0EOMuJvnq8rMCHVkaFmPFrlI/q447ukwGZQKaAKqodV+MNTfpb/iPxjgUPVbSlVVw==",
+      "path": "amazon.lambda.core/2.1.0",
+      "hashPath": "amazon.lambda.core.2.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qgFCDJp5lyUNqCq1z18U7fZ/+rmMyw6RJf9nKfnJrf79YupDj02klQAjxymEYN66NykWXyc68SGkow6fy53hfg==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.3.0",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.SQSEvents/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a1xaCIuXDleJ8iRE3vHWWhtPqUiURmoQUS68INMEQmtfHr4wTz837TQZONo4cyubv5sZj78DDrYessZEzgFRGQ==",
+      "path": "amazon.lambda.sqsevents/2.1.0",
+      "hashPath": "amazon.lambda.sqsevents.2.1.0.nupkg.sha512"
+    },
+    "AWSSDK/2.3.55.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zy/6psTOx9c8LaZqL1tUtiGKMpd35b16TNRctz/N6Qc6hqFeOjyZ5WVhn89szJkkZtotcMFyfq58Y2RfyRxxUg==",
+      "path": "awssdk/2.3.55.2",
+      "hashPath": "awssdk.2.3.55.2.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.11.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3X9+uQi2QSB/WCgBJgMv1SVzLhvpwYUGxJHlzYB89QeK9cqiezUNobEOdQ1r4vSzUVg8pt/pJKGjFSH0NINVwA==",
+      "path": "awssdk.core/3.7.11.12",
+      "hashPath": "awssdk.core.3.7.11.12.nupkg.sha512"
+    },
+    "AWSSDK.Lambda/3.7.13.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LXztjjvi+LD5wFtjTSjY9pFarq9eMAZ9PGMD5eGVJ6GyaljxHaGN3+xO98ceQ7a+M11YdlKZj19Ob1rZKqV9OA==",
+      "path": "awssdk.lambda/3.7.13.10",
+      "hashPath": "awssdk.lambda.3.7.13.10.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-41pDSeoYNx+GXm6T43kAjOPyTTB1Imc0cvbpekzPeRDM0PHRqUR1Xjhk4DcSltro4lO1pDtzY6yza5mnB+zw7A==",
+      "path": "awssdk.s3/3.7.9.12",
+      "hashPath": "awssdk.s3.3.7.9.12.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.2.65": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dv2w4VqOvJrQgHkopMQsibdNxvuf9CSX+GCICXucB4jNQ/sELA6cdANVzphSJX0lWxbwxOhjw/SXMeEvGlgKVw==",
+      "path": "awssdk.sqs/3.7.2.65",
+      "hashPath": "awssdk.sqs.3.7.2.65.nupkg.sha512"
+    }
+  }
+}
